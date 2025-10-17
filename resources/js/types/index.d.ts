@@ -36,4 +36,16 @@ export interface User {
     updated_at: string;
 }
 
+export interface Property {
+    id: number
+    name: string
+    bedrooms: number
+    bathrooms: number
+    storeys: number
+    garages: number
+    price: number
+    created_at: string
+    updated_at: string
+}
+
 export type BreadcrumbItemType = BreadcrumbItem;
